@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlo Resort</title>
+    <style>
+      body {
+        background-color: rgb(116, 116, 116);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Navegation */
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        font-size: 28px;
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(20px);
+        padding: 30px 60px 40px 940px;
+        border-radius: 8px;
+      }
+      .header span {
+        margin: 0 20px;
+        cursor: pointer;
+        color: #000;
+        margin-top: 20px;
+      }
+      .header span:hover {
+        color: #ff6347;
+      }
+      .Carlos_Resort {
+        top: 5px;
+        width: 100px;
+        left: 100px;
+        position: absolute;
+      }
+      a {
+        text-decoration: none;
+      }
+      /* Welcome Display */
+
+      .Welcome_Display {
+        width: 300px;
+        position: absolute;
+        top: 130px;
+        left: 900px;
+      }
+      h1,
+      p {
+        position: absolute;
+        top: 200px;
+        left: 400px;
+        color: #000;
+      }
+      p {
+        font-size: 20px;
+        margin-top: 10px;
+        top: 290px;
+      }
+      h1 {
+        top: 230px;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+
+      /* MGA PICTURES */
+
+      .gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        position: absolute;
+        left: 330px;
+        top: 400px;
+      }
+
+      .row {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 30px;
+      }
+
+      .row img {
+        width: 280px;
+        height: 230px;
+        border-radius: 8px;
+        box-shadow: 10px 10px 10px rgba(20, 20, 20, 0.3);
+      }
+      .row img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+        border: white solid 2px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+      }
+      .div3 {
+        width: 250px;
+        position: absolute;
+        top: 1000px;
+        color: #000;
+        font-size: 15px;
+        background-color: skyblue;
+        padding: 30px 1190px 100px 100px;
+        margin-left: -30px;
+      }
+      .p1,
+      .p2,
+      .p3,
+      .p4 {
+        position: absolute;
+        left: 500px;
+        top: 20px;
+        font-size: 15px;
+      }
+      .p2 {
+        top: 60px;
+      }
+      .p3,
+      .p4 {
+        left: 100px;
+      }
+      .p3 {
+        top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="header">
+      <img src="carlos_resort-removed.png" alt="" class="Carlos_Resort" />
+      <a href="Home.html"><span class="Home">Home</span></a>
+      <a href="About.html"><span class="About">About</span></a>
+      <a href="Services.html"><span class="Services">Services</span></a>
+      <a href="Contact.html"><span class="Contact">Contact</span></a>
+    </nav>
+    <h1>Welcome to Carols Resort</h1>
+    <p>Experience luxury and comfort like never before.</p>
+    <img src="carlos_resort-removed.png" alt="" class="Welcome_Display" />
+    <div class="gallery">
+      <div class="row">
+        <img src="img1.jpg" alt="" />
+        <img src="img2.jpg" alt="" />
+        <img src="img3.jpg" alt="" />
+      </div>
+      <div class="row">
+        <img src="img4.jpg" alt="" />
+        <img src="img5.jpg" alt="" />
+        <img src="img6.jpg" alt="" />
+      </div>
+    </div>
+    <div class="div3">
+      <p class="p3">0948-402-7479</p>
+      <p class="p4">https://facebook.com/share/14kFX97E24/</p>
+      <p class="p1">instagram.profile.caroirs.resort</p>
+      <p class="p2">carolinaney685@gmail.com</p>
+    </div>
+  </body>
+</html>
